@@ -1,7 +1,8 @@
-<<<<<<< HEAD
-=======
 * {
-    font-size: 120%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
 }
 
@@ -9,168 +10,184 @@ body {
     background-image: linear-gradient(to right, #00c6ff, #0072ff);
 }
 
-/* Desktop Version */
-@media (min-width: 992px) {
-    
-.heading {
+.header-container {
+    margin-top: 2%;
+    font-size: 240%;
     text-align: center;
-    font-size: 1.7rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    padding: 10px 0px 40px;
 }
 
-.menu-card {
-    position: relative;
+.menu-container {
+    display: flex;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-1 {
     float: left;
-    margin: 1.6rem;
-    padding: 0rem;
     border: 1px solid #000000;
-    background-color: beige;
-    width: 20rem;
+    background-color: #e5e5e5;
+    width: 30%;
+    margin-right: 1em;
 }
 
-.menu-section {
-    float: right;
-    border-width: 0px 0px 0.5px 0.5px;
-    border-color: #000000;
-    border-style: solid;
-    background-color: coral;
-}
-
-.menu-desc {
-    padding: 2rem 0.5rem 0rem;
-}
-
-.title-1,
-.title-2,
-.title-3 {
-    margin: 0px;
-    padding: 1px;
-    width: 7rem;
-    text-align: center;
-    font-size: 1.4rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-}
-
-.desc-1,
-.desc-2,
-.desc-3 {
-    font-size: 0.8rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    color: #353535;
-}
-}
-
-/* Tablet Version */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    
-.heading {
-    text-align: center;
-    font-size: 1.7rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    padding: 10px 0px 40px;
-}
-
-.menu-card {
-    position: relative;
+.box-2 {
     float: left;
-    margin: 1.6rem;
-    padding: 0rem;
     border: 1px solid #000000;
-    background-color: beige;
-    width: 20rem;
+    background-color: #e5e5e5;
+    width: 30%;
+    margin-right: 1em;
 }
 
-.menu-section {
-    float: right;
-    border-width: 0px 0px 0.5px 0.5px;
-    border-color: #000000;
-    border-style: solid;
-    background-color: coral;
-}
-
-.menu-desc {
-    padding: 2rem 0.5rem 0rem;
-}
-
-.title-1,
-.title-2,
-.title-3 {
-    margin: 0px;
-    padding: 1px;
-    width: 7rem;
-    text-align: center;
-    font-size: 1.4rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-}
-
-.desc-1,
-.desc-2,
-.desc-3 {
-    font-size: 0.8rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    color: #353535;
-}
-}
-
-/* Mobie Version */
-@media (max-width: 767px) {
-    
-.heading {
-    text-align: center;
-    font-size: 1.7rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    padding: 10px 0px 40px;
-}
-
-.menu-card {
-    position: relative;
+.box-3 {
     float: left;
-    margin: 0.5rem;
-    padding: 0rem;
     border: 1px solid #000000;
-    background-color: beige;
-    width: 20rem;
+    background-color: #e5e5e5;
+    width: 30%;
 }
 
-.menu-section {
+.title-container {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-top: 0%;
+    border-right: 0%;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    width: 32%;
+}
+
+#title-1 {
     float: right;
-    border-width: 0px 0px 0.5px 0.5px;
-    border-color: #000000;
-    border-style: solid;
-    background-color: coral;
-}
-
-.menu-desc {
-    padding: 2rem 0.5rem 0rem;
-}
-
-.title-1,
-.title-2,
-.title-3 {
-    margin: 0px;
-    padding: 1px;
-    width: 7rem;
     text-align: center;
-    font-size: 1.4rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    background-color: #fff75f;
+    color: #252525;
 }
 
-.desc-1,
-.desc-2,
-.desc-3 {
-    font-size: 0.8rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    color: #353535;
+#title-2 {
+    float: right;
+    text-align: center;
+    background-color: #ff72ff;
+    color: #252525;
 }
+
+#title-3 {
+    float: right;
+    text-align: center;
+    background-color: #f08080;
+    color: #252525;
 }
->>>>>>> 5e934ee... Few edits
+
+.paragraph-container {
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #252525;
+}
+
+/** Mobile Version **/
+@media only screen and (max-width: 767px) {
+    .header-container {
+        font-size: 4em;
+    }
+
+    .menu-container {
+        display: flex;
+        margin-top: 3em;
+        margin-right: 0em;
+        margin-left: 1em;
+    }
+
+    .box-1 {
+        position: relative;
+        border: 1px solid #000000;
+        margin-bottom: 3em;
+        background-color: #e5e5e5;
+        width: max-content;
+    }
+
+    .box-2 {
+        position: relative;
+        border: 1px solid #000000;
+        margin-bottom: 3em;
+        background-color: #e5e5e5;
+        width: max-content;
+    }
+
+    .box-3 {
+        position: relative;
+        border: 1px solid #000000;
+        margin-bottom: 3em;
+        background-color: #e5e5e5;
+        width: max-content;
+        margin-right: 1em;
+    }
+}
+
+/** Tablet Version **/
+@media only screen and (min-width:767px) and (max-width: 992px) {
+    .header-container {
+        font-size: 4em;
+    }
+
+    .menu-container {
+        margin-top: 3em;
+    }
+
+    .box-1 {
+        float: left;
+        width: 20em;
+        margin-right: 2em;
+    }
+    .box-2 {
+        float: left;
+        width: 20em;
+    }
+
+    .box-3 {
+        float: left;
+        margin-top: 2em;
+        border: 1px solid #000000;
+        background-color: #e5e5e5;
+        width: 42em;
+    }
+
+    .title-container {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        border-top: 0%;
+        border-right: 0%;
+        border-bottom: 1px solid #000000;
+        border-left: 1px solid #000000;
+        width: 32%;
+    }
+
+    #title-1 {
+        float: right;
+        text-align: center;
+        background-color: #fff75f;
+        color: #252525;
+    }
+
+    #title-2 {
+        float: right;
+        text-align: center;
+        background-color: #ff72ff;
+        color: #252525;
+    }
+
+    #title-3 {
+        float: right;
+        text-align: center;
+        background-color: #f08080;
+        color: #252525;
+    }
+
+    .paragraph-container {
+        margin-top: 10%;
+        margin-left: 2%;
+        margin-right: 2%;
+        color: #252525;
+    }
+}

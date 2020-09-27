@@ -152,6 +152,7 @@ body {
     .box-3 {
         float: left;
         margin-top: 2em;
+        margin-left: -1em;
         border: 1px solid #000000;
         background-color: #e5e5e5;
         width: 42em;

@@ -123,6 +123,10 @@ body {
         width: max-content;
         margin-right: 1em;
     }
+
+    .paragraph-container {
+        margin-top: 2em;
+    }
 }
 
 /** Tablet Version **/

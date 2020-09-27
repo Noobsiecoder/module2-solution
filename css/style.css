@@ -1,0 +1,176 @@
+<<<<<<< HEAD
+=======
+* {
+    font-size: 120%;
+    color: #ffffff;
+}
+
+body {
+    background-image: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    
+.heading {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 10px 0px 40px;
+}
+
+.menu-card {
+    position: relative;
+    float: left;
+    margin: 1.6rem;
+    padding: 0rem;
+    border: 1px solid #000000;
+    background-color: beige;
+    width: 20rem;
+}
+
+.menu-section {
+    float: right;
+    border-width: 0px 0px 0.5px 0.5px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: coral;
+}
+
+.menu-desc {
+    padding: 2rem 0.5rem 0rem;
+}
+
+.title-1,
+.title-2,
+.title-3 {
+    margin: 0px;
+    padding: 1px;
+    width: 7rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.desc-1,
+.desc-2,
+.desc-3 {
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #353535;
+}
+}
+
+/* Tablet Version */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+.heading {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 10px 0px 40px;
+}
+
+.menu-card {
+    position: relative;
+    float: left;
+    margin: 1.6rem;
+    padding: 0rem;
+    border: 1px solid #000000;
+    background-color: beige;
+    width: 20rem;
+}
+
+.menu-section {
+    float: right;
+    border-width: 0px 0px 0.5px 0.5px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: coral;
+}
+
+.menu-desc {
+    padding: 2rem 0.5rem 0rem;
+}
+
+.title-1,
+.title-2,
+.title-3 {
+    margin: 0px;
+    padding: 1px;
+    width: 7rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.desc-1,
+.desc-2,
+.desc-3 {
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #353535;
+}
+}
+
+/* Mobie Version */
+@media (max-width: 767px) {
+    
+.heading {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 10px 0px 40px;
+}
+
+.menu-card {
+    position: relative;
+    float: left;
+    margin: 0.5rem;
+    padding: 0rem;
+    border: 1px solid #000000;
+    background-color: beige;
+    width: 20rem;
+}
+
+.menu-section {
+    float: right;
+    border-width: 0px 0px 0.5px 0.5px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: coral;
+}
+
+.menu-desc {
+    padding: 2rem 0.5rem 0rem;
+}
+
+.title-1,
+.title-2,
+.title-3 {
+    margin: 0px;
+    padding: 1px;
+    width: 7rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.desc-1,
+.desc-2,
+.desc-3 {
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #353535;
+}
+}
+>>>>>>> 5e934ee... Few edits
